@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Petopia"
         tools:targetApi="31">
         <activity
+            android:name=".RecuperarContra"
+            android:exported="false" />
+        <activity
             android:name=".BuscadorServiciosMascota"
             android:exported="false" />
         <activity
