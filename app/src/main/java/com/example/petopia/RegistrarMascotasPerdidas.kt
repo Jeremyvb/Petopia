@@ -10,10 +10,12 @@ class RegistrarMascotasPerdidas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registrar_mascotas_perdidas)
         val btnFinalizarRegistroMascotasPerdidas: Button = findViewById(R.id.botonFinalRegisroMascotasPerdidas)
+
         btnFinalizarRegistroMascotasPerdidas.setOnClickListener()
         {
             val i = Intent(this,MascotasPerdidasMenu::class.java)
             startActivity(i)
         }
+
     }
 }

@@ -19,7 +19,7 @@
             android:name=".BuscadorServiciosMascota"
             android:exported="false" />
         <activity
-            android:name=".RegisrarSeviciosMascota"
+            android:name=".RegistrarSeviciosMascota"
             android:exported="false" />
         <activity
             android:name=".RegistrarMascotasAdopcion"

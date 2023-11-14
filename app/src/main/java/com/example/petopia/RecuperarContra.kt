@@ -1,5 +1,6 @@
 package com.example.petopia
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -19,9 +20,16 @@ class RecuperarContra : AppCompatActivity() {
 
         val txtCorreo:TextView = findViewById(R.id.correoRecuperarContra)
         val btnCambiar:Button = findViewById(R.id.btnRecuperarContra)
+        val btnBack2: Button = findViewById(R.id.btnBack2)
 
         btnCambiar.setOnClickListener(){
             sendPasswordReset(txtCorreo.text.toString())
+        }
+
+        btnBack2.setOnClickListener()
+        {
+            val j = Intent(this,MainActivity::class.java)
+            startActivity(j)
         }
 
         firebaseAuth = Firebase.auth

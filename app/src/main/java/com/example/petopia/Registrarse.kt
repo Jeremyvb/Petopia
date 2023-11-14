@@ -18,7 +18,7 @@ class Registrarse : AppCompatActivity() {
 
         val btnregistrar : Button = findViewById(R.id.btnRegistrarse)
         val btnregresar: Button = findViewById(R.id.btnRegresar)
-        val txtNombre:TextView = findViewById(R.id.nombreApellidoRegistro)
+        val txtNombre:TextView = findViewById(R.id.tituloRegistrarMascotaPerdida)
         val txtCorreo:TextView = findViewById(R.id.correoRegistro)
         val txtPassword:TextView = findViewById(R.id.contraRegistro)
         val txtPasswordConfirmed:TextView = findViewById(R.id.contraRegistroConfirmar)

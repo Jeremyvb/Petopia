@@ -58,7 +58,7 @@ class Login : AppCompatActivity() {
 
                 }
                 else {
-                    Toast.makeText(baseContext, "Error de correo y/0 contraseña", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(baseContext, "Error de correo y/o contraseña", Toast.LENGTH_SHORT).show()
                 }
 
             }

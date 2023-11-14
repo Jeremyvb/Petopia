@@ -6,8 +6,25 @@
     android:layout_height="match_parent"
     android:background="#FDDF77">
 
+    <ImageButton
+        android:id="@+id/ibUsuario3"
+
+        android:layout_width="87dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:onClick="irAPantallaUsuario"
+        android:src="@drawable/user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView6"
         android:layout_width="83dp"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,7 +58,7 @@
         android:layout_width="260dp"
         android:layout_height="75dp"
         android:backgroundTint="#FFA500"
-        android:text="Servicios mascota"
+        android:text="Prestación de Servicios"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +72,7 @@
         android:layout_width="260dp"
         android:layout_height="75dp"
         android:backgroundTint="#FFA500"
-        android:text="Adopción de mascotas "
+        android:text="¡Adopta una mascota!"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,22 +80,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonMascotasPerdidas"
         app:layout_constraintVertical_bias="0.233" />
-
-    <ImageButton
-        android:id="@+id/ibUsuario"
-
-        android:layout_width="87dp"
-        android:layout_height="83dp"
-        android:background="@android:color/transparent"
-        android:clickable="true"
-        android:onClick="irAPantallaUsuario"
-        android:src="@drawable/user"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013" />
 
     <ImageView
         android:id="@+id/imagehouse"
@@ -124,9 +125,9 @@
 
     <Button
         android:id="@+id/btnCerrarSesión"
-        android:layout_width="136dp"
-        android:layout_height="38dp"
-        android:backgroundTint="#FFA500"
+        android:layout_width="137dp"
+        android:layout_height="39dp"
+        android:backgroundTint="#ED5252"
         android:text="Cerrar sesión"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -135,6 +136,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elegantTextHeight="true"
+        android:text="Petopia"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
